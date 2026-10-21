@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Disallow: /portfolio/admin
-Disallow: /portfolio/page_secrete
+Disallow: /Portfolio_V2/admin
+Disallow: /Portfolio_V2/page_secrete
 
-Sitemap: https://glardy.github.io/portfolio/sitemap.xml
+Sitemap: https://glardy.github.io/Portfolio_V2/sitemap.xml
