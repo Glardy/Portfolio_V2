@@ -25,7 +25,7 @@ if ('serviceWorker' in navigator) {
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/portfolio">
+    <BrowserRouter basename="/Portfolio_V2">
       <App />
     </BrowserRouter>
   </StrictMode>,
