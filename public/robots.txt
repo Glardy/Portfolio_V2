@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /portfolio/admin
+Disallow: /portfolio/page_secrete
+
+Sitemap: https://glardy.github.io/portfolio/sitemap.xml
