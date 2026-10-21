@@ -1,12 +1,12 @@
 const CACHE_VERSION = 'portfolio-v1'
 const APP_SHELL = [
-  '/portfolio/',
-  '/portfolio/index.html',
-  '/portfolio/manifest.webmanifest',
-  '/portfolio/favicon.svg',
-  '/portfolio/icons.svg',
-  '/portfolio/robots.txt',
-  '/portfolio/sitemap.xml',
+  '/Portfolio_V2/',
+  '/Portfolio_V2/index.html',
+  '/Portfolio_V2/manifest.webmanifest',
+  '/Portfolio_V2/favicon.svg',
+  '/Portfolio_V2/icons.svg',
+  '/Portfolio_V2/robots.txt',
+  '/Portfolio_V2/sitemap.xml',
 ]
 
 self.addEventListener('install', (event) => {
@@ -44,14 +44,14 @@ self.addEventListener('fetch', (event) => {
           return response
         })
         .catch(() =>
-          caches.match(event.request).then((cached) => cached || caches.match('/portfolio/'))
+          caches.match(event.request).then((cached) => cached || caches.match('/Portfolio_V2/'))
         )
     )
     return
   }
 
   const isStaticAsset =
-    requestUrl.pathname.startsWith('/portfolio/assets/') ||
+    requestUrl.pathname.startsWith('/Portfolio_V2/assets/') ||
     ['style', 'script', 'image', 'font'].includes(event.request.destination)
 
   if (isStaticAsset) {
