@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'portfolio-v1'
+const CACHE_VERSION = 'portfolio-v1-v2'
 const APP_SHELL = [
   '/Portfolio_V2/',
   '/Portfolio_V2/index.html',
