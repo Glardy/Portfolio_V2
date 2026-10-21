@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://Glardy.github.io/portfolio",
+  "homepage": "https://glardy.github.io/Portfolio_V2/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
